@@ -12,3 +12,15 @@
 #list-name  {
     color: white;
 }
+
+#header {
+    z-index: 2;
+}
+
+#container {
+    z-index: 1;
+}
+
+#add    {
+    z-index: 2;
+}

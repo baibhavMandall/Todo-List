@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body class="bg-slate-700">
-    <div class="w-full bg-slate-800 h-16 text-center p-5">
+    <div id="header" class="w-full bg-slate-800 h-16 text-center p-5 fixed top-0">
         <h1>TODO LIST</h1>
     </div>
 
-    <div id="container" class="p-3">
+    <div id="container" class="p-3 absolute top-12">
         <div id="todo-list">
             <h1 id="list-name">TO DO</h1>
         </div>
@@ -50,7 +50,9 @@
         </div>
     </div>
 
-    <div class="h-14 w-14 rounded-full bg-gray-800 fixed bottom-14 left-56"></div>
+    <div id="add" class="h-14 w-14 rounded-full bg-gray-800 fixed bottom-14 left-56 text-4xl text-center p-2">
+        <h1 class="text-white">+</h1>
+    </div>
 
     <script src="script.js"></script>
 </body>
