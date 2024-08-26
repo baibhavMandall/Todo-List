@@ -11,6 +11,11 @@
 
 #todo-list:hover    {
     box-shadow: 5px 5px 15px black;
+    background-color: rgb(21, 33, 61);
+}
+
+#todo-list:active    {
+    background-color: rgb(7, 13, 30);
 }
 
 #list-name  {

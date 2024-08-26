@@ -677,6 +677,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.active\:bg-gray-900:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:left-\[500px\] {
     left: 500px;
@@ -702,14 +712,6 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:left-\[1400px\] {
-    left: 1400px;
-  }
-
-  .\32xl\:left-\[1600px\] {
-    left: 1600px;
-  }
-
   .\32xl\:left-\[1700px\] {
     left: 1700px;
   }
