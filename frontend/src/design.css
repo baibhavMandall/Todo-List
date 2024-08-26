@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+#todo-list:hover    {
+    box-shadow: 5px 5px 15px black;
+}
+
 #list-name  {
     color: white;
 }
@@ -23,4 +27,34 @@
 
 #add    {
     z-index: 2;
+}
+
+@media (min-width: 640px) {
+    #todo-list {
+        width: 28rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #todo-list {
+        width: 35rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #todo-list {
+        width: 47rem;
+    }    
+}
+
+@media (min-width: 1280px) {
+    #todo-list {
+        width: 60rem;
+    }
+}
+
+@media (min-width: 1536px) {
+    #todo-list {
+        width: 73rem;
+    }    
 }
