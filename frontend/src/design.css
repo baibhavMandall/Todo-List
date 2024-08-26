@@ -55,6 +55,7 @@
 
 @media (min-width: 1536px) {
     #todo-list {
-        width: 73rem;
+        /* width: 73rem; */
+        width: 91rem;
     }    
 }
