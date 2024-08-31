@@ -6,7 +6,7 @@
     text-align: center;
     padding: 1.25rem;
     margin: 1.25rem;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 #todo-list:hover    {
@@ -34,6 +34,10 @@
     z-index: 2;
 }
 
+#sider  {
+    z-index: 3;
+}
+
 @media (min-width: 640px) {
     #todo-list {
         width: 28rem;
@@ -48,19 +52,32 @@
 
 @media (min-width: 1024px) {
     #todo-list {
-        width: 47rem;
+        width: 25rem;
+        position: relative;
+        left: 76%;
     }    
 }
 
 @media (min-width: 1280px) {
     #todo-list {
-        width: 60rem;
+        width: 40rem;
+        position: relative;
+        left: 47%;
     }
 }
 
 @media (min-width: 1536px) {
     #todo-list {
-        /* width: 73rem; */
-        width: 91rem;
+        width: 50rem;
+        position: relative;
+        left: 40%;
+    }    
+}
+
+@media (min-width: 1832px) {
+    #todo-list {
+        width: 60rem;
+        position: relative;
+        left: 40%;
     }    
 }
