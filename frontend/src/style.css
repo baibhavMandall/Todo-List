@@ -743,10 +743,6 @@ video {
     display: flex;
   }
 
-  .lg\:h-\[950px\] {
-    height: 950px;
-  }
-
   .lg\:h-screen {
     height: 100vh;
   }
