@@ -30,18 +30,3 @@ window.addEventListener('keydown', (event) => {
 
 
 let count = 0;
-
-// container.addEventListener('click', (event) => {
-//     if (event.target.id === 'todo-list' || event.target.id === 'list-name') {
-//         if(count === 0) {
-//             const todoList = document.getElementById('todo-list');
-//             // todoList.style.height = '';
-//             count = 1;
-//         }   else    {
-//             const todoList = document.getElementById('todo-list');
-//             // todoList.style.height = '4rem';
-//             count = 0;
-//         }
-        
-//     }
-// });
