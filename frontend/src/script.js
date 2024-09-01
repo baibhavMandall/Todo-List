@@ -1,5 +1,4 @@
 let add = document.querySelector('#add');
-let todoList = document.querySelector('#todo-list');
 let container = document.querySelector('#container');
 
 // let listSection = document.querySelector('#list-section');
@@ -29,6 +28,20 @@ window.addEventListener('keydown', (event) => {
     }
 });
 
-function openPopup() {
-    window.open("example.html", "_blank", "width=400,height=300");
-}
+
+let count = 0;
+
+// container.addEventListener('click', (event) => {
+//     if (event.target.id === 'todo-list' || event.target.id === 'list-name') {
+//         if(count === 0) {
+//             const todoList = document.getElementById('todo-list');
+//             // todoList.style.height = '';
+//             count = 1;
+//         }   else    {
+//             const todoList = document.getElementById('todo-list');
+//             // todoList.style.height = '4rem';
+//             count = 0;
+//         }
+        
+//     }
+// });
