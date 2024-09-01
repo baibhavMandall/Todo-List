@@ -3,7 +3,7 @@ let todoList = document.querySelector('#todo-list');
 let container = document.querySelector('#container');
 
 // let listSection = document.querySelector('#list-section');
-// let setting = document.querySelector('#settings');
+// let guide = document.querySelector('#guide');
 // let feedback = document.querySelector('#feedback');
 
 add.addEventListener('click', () => {
@@ -22,3 +22,13 @@ add.addEventListener('click', () => {
         alert('Task name cannot be empty!')
     }
 })
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        add.click();
+    }
+});
+
+function openPopup() {
+    window.open("example.html", "_blank", "width=400,height=300");
+}
